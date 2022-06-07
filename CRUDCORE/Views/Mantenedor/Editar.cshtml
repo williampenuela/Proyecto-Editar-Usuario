@@ -1,0 +1,74 @@
+﻿@model ContactoModel
+
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+  <div class="card-header">
+    Editar Empleado
+  </div>
+  <div class="card-body">
+
+
+        <form asp-action="editar" asp-controller="Mantenedor" method="post">
+
+      <input asp-for="Id_IE" type="hidden" class="form-control"/>
+      <div class="mb-3">
+        <label class="form-label">ID</label>
+        <input asp-for="Id_IE" type="text" class="form-control" disabled/>
+        <span asp-validation-for="Id_IE" class="text-danger>"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Codigo Sae</label>
+        <input asp-for="Codigo_Sae" type="text" class="form-control"/>
+        <span asp-validation-for="Codigo_Sae" class="text-danger>"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Numero de documento</label>
+        <input asp-for="N_Identificacion" type="text" class="form-control" disabled />
+        <span asp-validation-for="N_Identificacion" class="text-danger>"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Nombres</label>
+        <input asp-for="Nombres" type="text" class="form-control" disabled/>
+        <span asp-validation-for="Nombres" class="text-danger>"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Primer Apellido</label>
+        <input asp-for="Apellido1" type="text" class="form-control" disabled />
+        <span asp-validation-for="Apellido1" class="text-danger>"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Segundo Apellido</label>
+        <input asp-for="Apellido2" type="text" class="form-control" disabled />
+        <span asp-validation-for="Apellido2" class="text-danger>"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Fecha de expedicion</label>
+        <input asp-for="Fec_ExpDoc" type="date" class="form-control" />
+        <span asp-validation-for="Fec_ExpDoc" class="text-danger>"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Correo Personal</label>
+        <input asp-for="Email_Personal" type="email" class="form-control" />
+        <span asp-validation-for="Email_Personal" class="text-danger>"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Correo Empresarial</label>
+        <input asp-for="Email_Empresa" type="email" class="form-control" />
+        <span asp-validation-for="Email_Empresa" class="text-danger>"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Cargo</label>
+        <input asp-for="Descripcion" type="email" class="form-control" disabled />
+        <span asp-validation-for="Descripcion" class="text-danger>"></span>
+      </div>
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <a asp-action="Listar" asp-controller="Mantenedor" class="btn btn-warning">Volver a la lista</a>
+    </form>
+  </div>
+</div>
+
+

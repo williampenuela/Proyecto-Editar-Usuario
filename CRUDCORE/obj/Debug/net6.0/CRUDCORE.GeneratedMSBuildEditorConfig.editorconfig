@@ -1,0 +1,52 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CRUDCORE
+build_property.RootNamespace = CRUDCORE
+build_property.ProjectDir = C:\Users\pasante.desarrollo1\Desktop\ejercicios c#\CRUDCORE\CRUDCORE\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\pasante.desarrollo1\Desktop\ejercicios c#\CRUDCORE\CRUDCORE
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/pasante.desarrollo1/Desktop/ejercicios c\#/CRUDCORE/CRUDCORE/Views/Mantenedor/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuZWRvclxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pasante.desarrollo1/Desktop/ejercicios c\#/CRUDCORE/CRUDCORE/Views/Mantenedor/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuZWRvclxMaXN0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pasante.desarrollo1/Desktop/ejercicios c\#/CRUDCORE/CRUDCORE/Views/Mantenedor/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuZWRvclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pasante.desarrollo1/Desktop/ejercicios c\#/CRUDCORE/CRUDCORE/Views/Mantenedor/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuZWRvclxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pasante.desarrollo1/Desktop/ejercicios c\#/CRUDCORE/CRUDCORE/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pasante.desarrollo1/Desktop/ejercicios c\#/CRUDCORE/CRUDCORE/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pasante.desarrollo1/Desktop/ejercicios c\#/CRUDCORE/CRUDCORE/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pasante.desarrollo1/Desktop/ejercicios c\#/CRUDCORE/CRUDCORE/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pasante.desarrollo1/Desktop/ejercicios c\#/CRUDCORE/CRUDCORE/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ebh3fj4uyr

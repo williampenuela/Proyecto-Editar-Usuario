@@ -1,0 +1,69 @@
+﻿@model List<ContactoModel>
+
+@{
+    ViewData["Title"] = "Listar";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid" align="center">
+                <h1>Informacion Empleados</h1>
+                 <button type="button" class="btn btn-light">@Html.ActionLink("Cerrar Sesion","CerrarSesion","Home")</button>
+            </div>
+        </nav>
+</header>
+<div class="card table-responsive">
+
+  <div class="card-header">
+    Lista Contacto
+  </div>
+      <div  class="card-body">
+            <form asp-action="Listar" asp-controller="Mantenedor" method="get">
+                <input type="number" class="for-control mb-2 mr-sm-2" placeholder ="N° De Identificacion" id="filter" name="filter" />
+                <button type="submit" class="btn btn-primary btn-sm" value="submit" ><i class="bi bi-search"></i> Buscar</button>
+            </form>
+            <hr />
+            <table class="table table-bordered table-responsive" style="font-size: 13px; text-align:center">
+                <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Identificacion</th>
+                            <th>Codigo Sae</th>
+                            <th>Nombres</th>
+                            <th>Primer Apellido</th>
+                            <th>Segundo Apellido</th>
+                            <th>Fecha de expedicion</th>
+                            <th>Correo Personal</th>
+                            <th>Correo Empresarial</th>
+                            <th>Cargo</th>
+                            <th></th>
+                        </tr>
+                </thead>
+                <tbody>
+                        @if(Model != null)
+                        {
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Id_IE</td>
+                                    <td>@item.N_Identificacion</td>
+                                    <td>@item.Codigo_Sae</td>
+                                    <td>@item.Nombres</td>
+                                    <td>@item.Apellido1</td>
+                                    <td>@item.Apellido2</td>
+                                    <td>@item.Fec_ExpDoc</td>
+                                    <td>@item.Email_Personal</td>
+                                    <td>@item.Email_Empresa</td>
+                                    <td>@item.Descripcion</td>
+                                    <td>
+                                        <a asp-action="editar" asp-controller="Mantenedor" class="btn btn-primary btn-sm" asp-route-IdContacto=@item.Id_IE><i class="bi bi-pencil"></i> Editar</a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                </tbody>
+            </table>
+      </div>
+</div>
